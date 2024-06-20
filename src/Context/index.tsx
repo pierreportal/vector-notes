@@ -1,5 +1,5 @@
-import { createContext, useState } from 'react';
 
+import React, { createContext, useState } from 'react';
 
 interface IContextValue {
     showNewNOteModal: boolean;

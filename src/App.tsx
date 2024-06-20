@@ -1,3 +1,4 @@
+import React from "react";
 import { Context } from "./Context";
 import { Footer } from "./components/Footer";
 import { MainContent } from "./components/MainContent";

@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import React, { useContext, useState } from "react";
 import { FiArrowUpRight, FiPlus } from "react-icons/fi";
 import { FiCheck } from "react-icons/fi";
 import { Modal, Overlay } from "./styles";
@@ -6,7 +6,7 @@ import { IconButton } from "../../../../UIkit/Buttons/IconButton";
 import { AppContext } from "../../../../Context";
 import { Row } from "../../../../UIkit";
 import { useKeys } from "../../../../hooks/useKeys";
-import { Editor } from "../../../MarkdownEditor";
+import { Markdown } from "../../../MarkdownEditor";
 
 export const NewNoteModal = () => {
     const { setShowNewNoteModal } = useContext(AppContext);
@@ -37,7 +37,7 @@ export const NewNoteModal = () => {
                     <IconButton onClick={handleResize} icon={<FiArrowUpRight style={{ transform: `rotate(${180 * Number(fullWidth)}deg)` }} />} />
                 </Row>
             </Row>
-            <Editor mdString={MD_STR} fullWidth={fullWidth} />
+            <Markdown mdString={MD_STR} fullWidth={fullWidth} />
         </Modal>
     </>
 }
