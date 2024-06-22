@@ -1,0 +1,1 @@
+export const rgbToHex = (rgb: Array<number>) => `#${rgb.map((c) => c.toString(16).padStart(2, '0')).join('')}`

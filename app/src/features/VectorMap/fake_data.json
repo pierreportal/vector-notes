@@ -1,0 +1,181 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Machine Learning",
+    "content": "Machine learning is a field of artificial intelligence that uses statistical techniques to give computer systems the ability to learn from data.",
+    "created_at": "2024-01-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Understanding Neural Networks",
+    "content": "Neural networks are computing systems inspired by the biological neural networks that constitute animal brains.",
+    "created_at": "2024-01-02T10:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "The Basics of Supervised Learning",
+    "content": "Supervised learning is a type of machine learning where the model is trained on labeled data.",
+    "created_at": "2024-01-03T11:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Exploring Unsupervised Learning",
+    "content": "Unsupervised learning involves training a model on data without labeled responses and is used for clustering and association.",
+    "created_at": "2024-01-04T12:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "An Overview of Reinforcement Learning",
+    "content": "Reinforcement learning is an area of machine learning where an agent learns to make decisions by taking actions in an environment to maximize cumulative reward.",
+    "created_at": "2024-01-05T14:20:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Deep Learning and Its Applications",
+    "content": "Deep learning is a subset of machine learning that uses neural networks with many layers to model complex patterns in data.",
+    "created_at": "2024-01-06T09:15:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Introduction to Natural Language Processing",
+    "content": "Natural language processing (NLP) is a field of AI that focuses on the interaction between computers and human languages.",
+    "created_at": "2024-01-07T10:10:00Z"
+  },
+  {
+    "id": 8,
+    "title": "What is Computer Vision?",
+    "content": "Computer vision is a field of AI that enables computers to interpret and make decisions based on visual data from the world.",
+    "created_at": "2024-01-08T11:05:00Z"
+  },
+  {
+    "id": 9,
+    "title": "The Role of AI in Healthcare",
+    "content": "AI is transforming healthcare by enabling more accurate diagnoses, personalized treatment plans, and efficient operations.",
+    "created_at": "2024-01-09T13:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning in Finance",
+    "content": "Machine learning is used in finance for algorithmic trading, fraud detection, and risk management.",
+    "created_at": "2024-01-10T14:30:00Z"
+  },
+  {
+    "id": 11,
+    "title": "The Future of Autonomous Vehicles",
+    "content": "Autonomous vehicles rely on AI and machine learning to navigate and make decisions without human intervention.",
+    "created_at": "2024-01-11T09:45:00Z"
+  },
+  {
+    "id": 12,
+    "title": "AI and Its Impact on Jobs",
+    "content": "AI is changing the job market by automating routine tasks and creating new opportunities in tech-driven industries.",
+    "created_at": "2024-01-12T10:20:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Ethics in Artificial Intelligence",
+    "content": "As AI becomes more integrated into society, ethical considerations such as bias, transparency, and accountability are increasingly important.",
+    "created_at": "2024-01-13T11:55:00Z"
+  },
+  {
+    "id": 14,
+    "title": "AI in Retail: Enhancing Customer Experience",
+    "content": "AI is used in retail to personalize customer experiences, optimize inventory, and streamline operations.",
+    "created_at": "2024-01-14T13:25:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Introduction to Generative Adversarial Networks",
+    "content": "Generative Adversarial Networks (GANs) are a class of machine learning frameworks where two neural networks compete to improve their performance.",
+    "created_at": "2024-01-15T14:40:00Z"
+  },
+  {
+    "id": 16,
+    "title": "The Power of Transfer Learning",
+    "content": "Transfer learning involves using a pre-trained model on a new, related problem, saving time and resources.",
+    "created_at": "2024-01-16T09:10:00Z"
+  },
+  {
+    "id": 17,
+    "title": "AI and Climate Change: Innovations for the Environment",
+    "content": "AI is being leveraged to address climate change by optimizing energy use, predicting weather patterns, and monitoring environmental changes.",
+    "created_at": "2024-01-17T10:00:00Z"
+  },
+  {
+    "id": 18,
+    "title": "Understanding Support Vector Machines",
+    "content": "Support Vector Machines (SVMs) are supervised learning models used for classification and regression analysis.",
+    "created_at": "2024-01-18T11:30:00Z"
+  },
+  {
+    "id": 19,
+    "title": "AI in Education: Personalized Learning",
+    "content": "AI is transforming education by providing personalized learning experiences and automating administrative tasks.",
+    "created_at": "2024-01-19T12:45:00Z"
+  },
+  {
+    "id": 20,
+    "title": "The Basics of Convolutional Neural Networks",
+    "content": "Convolutional Neural Networks (CNNs) are a class of deep neural networks commonly used for analyzing visual data.",
+    "created_at": "2024-01-20T13:50:00Z"
+  },
+  {
+    "id": 21,
+    "title": "AI in Cybersecurity: Protecting Data",
+    "content": "AI is enhancing cybersecurity by detecting threats, preventing attacks, and responding to incidents more effectively.",
+    "created_at": "2024-01-21T09:25:00Z"
+  },
+  {
+    "id": 22,
+    "title": "Exploring AI-Powered Chatbots",
+    "content": "AI-powered chatbots are transforming customer service by providing instant, 24/7 assistance to users.",
+    "created_at": "2024-01-22T10:15:00Z"
+  },
+  {
+    "id": 23,
+    "title": "The Evolution of Recommendation Systems",
+    "content": "Recommendation systems use AI to suggest products, content, and services to users based on their preferences and behavior.",
+    "created_at": "2024-01-23T11:05:00Z"
+  },
+  {
+    "id": 24,
+    "title": "Introduction to Reinforcement Learning Algorithms",
+    "content": "Reinforcement learning algorithms enable agents to learn optimal actions through trial and error by receiving rewards or penalties.",
+    "created_at": "2024-01-24T12:50:00Z"
+  },
+  {
+    "id": 25,
+    "title": "AI in Sports: Enhancing Performance",
+    "content": "AI is being used in sports to analyze player performance, prevent injuries, and improve game strategies.",
+    "created_at": "2024-01-25T14:15:00Z"
+  },
+  {
+    "id": 26,
+    "title": "The Role of AI in Smart Cities",
+    "content": "AI is integral to developing smart cities by optimizing traffic management, energy use, and public services.",
+    "created_at": "2024-01-26T09:35:00Z"
+  },
+  {
+    "id": 27,
+    "title": "AI and the Future of Work",
+    "content": "AI is reshaping the future of work by automating tasks, augmenting human capabilities, and creating new job roles.",
+    "created_at": "2024-01-27T10:50:00Z"
+  },
+  {
+    "id": 28,
+    "title": "Understanding Bias in Machine Learning",
+    "content": "Bias in machine learning can lead to unfair outcomes and is a critical issue that needs to be addressed for ethical AI deployment.",
+    "created_at": "2024-01-28T11:45:00Z"
+  },
+  {
+    "id": 29,
+    "title": "AI in the Creative Arts",
+    "content": "AI is being used in creative arts to generate music, art, and literature, pushing the boundaries of human creativity.",
+    "created_at": "2024-01-29T12:30:00Z"
+  },
+  {
+    "id": 30,
+    "title": "The Impact of AI on Society",
+    "created_at": "2024-01-26T12:30:00Z"
+  }
+]
