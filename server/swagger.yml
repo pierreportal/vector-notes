@@ -1,0 +1,28 @@
+openapi: 3.0.0
+info:
+  title: "VectorNotes Flask API"
+  description: "The API for VectorNotes"
+  version: "1.0.0"
+servers:
+  - url: "/api"
+components:
+  schemas:
+    Note:
+      type: "object"
+      required:
+        - id
+      properties:
+        title:
+          type: "string"
+        id:
+          type: "string"
+paths:
+  /notes:
+    get:
+      operationId: "notes.read_all"
+      tags:
+        - "Notes"
+      summary: "Read the list of notes"
+      responses:
+        "200":
+          description: "Successfully read notes list"
