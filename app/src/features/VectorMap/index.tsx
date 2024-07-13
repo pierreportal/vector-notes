@@ -1,17 +1,17 @@
 import React, { createContext, useState } from 'react';
 import { Scene } from './components/Scene';
 import { NoteCard } from './components/NoteCard';
-import RAW_DATA from './fake_data.json';
+import RAW_DATA from '../../data.json';
 
 const RAND_INIT = 40;
 const RAND_OFFSET = 0.5;
+// TODO: recalculate the range based on the data (min, max)
 export const P_RANGE_IN = [-(RAND_INIT * RAND_OFFSET), (RAND_INIT * RAND_OFFSET)]
-const FAKE_DATA = RAW_DATA.map((x, i) => {
+
+const FAKE_DATA = RAW_DATA.map((d, i) => {
+    const [x, y, z] = d.vector;
     return {
-        ...x,
-        x: (RAND_OFFSET - Math.random()) * RAND_INIT,
-        y: (RAND_OFFSET - Math.random()) * RAND_INIT,
-        z: (RAND_OFFSET - Math.random()) * RAND_INIT,
+        ...d, x, y, z
     }
 });
 

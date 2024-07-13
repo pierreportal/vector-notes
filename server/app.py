@@ -1,11 +1,12 @@
-import connexion
+from flask import Flask
+from db_init import init_db
+from routes.notes import notes_bp
 
-app = connexion.App(__name__, specification_dir="./")
-app.add_api("swagger.yml")
+app = Flask(__name__)
 
-@app.route("/")
-def home():
-    return "Hello, World!"
+init_db(app)
+
+app.register_blueprint(notes_bp)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000, debug=True)
+    app.run(host="0.0.0.0", port=8000)
