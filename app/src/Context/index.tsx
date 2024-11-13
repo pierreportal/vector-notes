@@ -2,19 +2,24 @@
 import React, { createContext, useState } from 'react';
 
 interface IContextValue {
-    showNewNOteModal: boolean;
+    showNewNoteModal: boolean;
     setShowNewNoteModal: (show: boolean) => void;
+    displayedNote: any;
+    setDisplayedNote: (note: any) => void;
 }
 
 export const AppContext = createContext({} as IContextValue);
 
 export const Context = ({ children }: any) => {
 
-    const [showNewNOteModal, setShowNewNoteModal] = useState(false);
+    const [showNewNoteModal, setShowNewNoteModal] = useState(false);
+    const [displayedNote, setDisplayedNote] = useState(null);
 
     const contextValue = {
-        showNewNOteModal,
-        setShowNewNoteModal
+        showNewNoteModal,
+        setShowNewNoteModal,
+        displayedNote,
+        setDisplayedNote
     }
 
     return (

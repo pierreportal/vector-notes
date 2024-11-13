@@ -9,22 +9,22 @@ export const SearchBar = () => {
 
     const inputRef = useRef(null);
 
-    const { showNewNOteModal } = useContext(AppContext);
+    const { showNewNoteModal } = useContext(AppContext);
 
     const [isFocused, setIsFocused] = useState(false);
 
     useEffect(() => {
-        if (showNewNOteModal) {
+        if (showNewNoteModal) {
             (inputRef?.current as any)?.blur();
             setIsFocused(false);
         }
-    }, [showNewNOteModal]);
+    }, [showNewNoteModal]);
 
     useKeys({
         meta: true,
         key: 'k',
         callback: () => {
-            if (!showNewNOteModal) {
+            if (!showNewNoteModal) {
                 (inputRef?.current as any)?.focus();
                 setIsFocused(true);
             }

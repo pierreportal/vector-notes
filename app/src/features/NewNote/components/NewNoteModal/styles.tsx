@@ -45,7 +45,17 @@ export const Overlay = styled.div`
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: 0;
     animation: ${fadeIn} 0.5s ease;
+`;
+
+export const TargetInfo = styled.span`
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    text-align: center;
+    color: grey;
+    opacity: 0.5;
+    font-size: 12px;
 `;

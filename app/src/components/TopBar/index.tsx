@@ -4,6 +4,7 @@ import { SearchBar } from '../../features/SearchNote/components/SearchBar';
 import { NewNoteButton } from '../../features/NewNote/components/NewNoteButton';
 import { IconButton } from '../../UIkit/Buttons/IconButton';
 import { FiMaximize, FiMinimize } from 'react-icons/fi';
+import { FoldersSelector } from '../../features/FoldersSelector';
 
 export const TopBar = () => {
     const [isFullScreen, setIsFullScreen] = React.useState(false);
@@ -19,7 +20,10 @@ export const TopBar = () => {
     }
     return (
         <TopBarStyled>
-            <NewNoteButton />
+            <div style={{ width: '60px', display: 'flex' }}>
+                <FoldersSelector />
+                <NewNoteButton />
+            </div>
             <SearchBar />
             <IconButton onClick={toggleFullScreen} icon={
                 isFullScreen ? <FiMinimize /> : <FiMaximize />

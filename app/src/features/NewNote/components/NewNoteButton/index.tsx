@@ -6,7 +6,7 @@ import { useKeys } from '../../../../hooks/useKeys';
 
 
 export const NewNoteButton = () => {
-    const { setShowNewNoteModal, showNewNOteModal } = useContext(AppContext);
+    const { setShowNewNoteModal, showNewNoteModal } = useContext(AppContext);
     useKeys({
         key: '+',
         callback: () => setShowNewNoteModal(true)
@@ -17,6 +17,6 @@ export const NewNoteButton = () => {
         callback: () => setShowNewNoteModal(false)
     });
 
-    const handleShowModal = () => setShowNewNoteModal(!showNewNOteModal);
+    const handleShowModal = () => setShowNewNoteModal(!showNewNoteModal);
     return <IconButton onClick={handleShowModal} icon={<FiPlus />} />;
 }
