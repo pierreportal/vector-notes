@@ -86,3 +86,9 @@ The system architecture consists of the following components:
 
 - **Collaborative Features**: Allow multiple users to collaborate on notes.
 - **Advanced Search**: Implement advanced search capabilities based on embeddings.
+
+## Screenshots
+
+![vector_space](https://github.com/user-attachments/assets/03dfc5bf-9781-4f24-b006-2d7226a385c9)
+
+
