@@ -91,4 +91,6 @@ The system architecture consists of the following components:
 
 ![vector_space](https://github.com/user-attachments/assets/03dfc5bf-9781-4f24-b006-2d7226a385c9)
 
+<img width="1506" alt="Screenshot 2024-12-24 at 10 00 43" src="https://github.com/user-attachments/assets/0df47f13-6159-4e19-a8fb-fc66d2c63e01" />
+<img width="1502" alt="Screenshot 2024-12-24 at 10 01 05" src="https://github.com/user-attachments/assets/8fa0e095-60e2-4c46-bafe-8398c92adf55" />
 
